@@ -1,0 +1,24 @@
+.image_container {
+  position: relative;
+  height: 70vh;
+  aspect-ratio: 9/12;
+  overflow: hidden;
+}
+
+.image_container img,
+.image_container canvas {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  object-position: center;
+}
+.image_container img {
+  z-index: 0;
+  image-rendering: pixelated;
+}
+.image_container canvas {
+  z-index: 1;
+}
