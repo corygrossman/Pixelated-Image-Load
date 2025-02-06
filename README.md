@@ -1,4 +1,10 @@
+Code made by [Cory Grossman](https://www.corygrossman.co/)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## Quick Note
+
+- I used Storyblok CDN to optimize my images and get the blurred effect. If you don't have a CDN, you can use [plaiceholder](https://plaiceholder.co/docs) in a nodejs and nextjs api environment or blur in software like Adobe Photoshop or Lightroom.
 
 ## Getting Started
 
